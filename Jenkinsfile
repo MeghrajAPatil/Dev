@@ -36,7 +36,7 @@ pipeline {
 
                     // Run container mapping port 8080 on host to port 80 in container
 
-                    sh 'docker run -d -p 8080:80 --name femicare-container femicare-web'
+                    sh 'docker run -d -p 8081:80 --name femicare-container femicare-web'
 
                 }
 
